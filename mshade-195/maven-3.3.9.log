@@ -1,0 +1,63 @@
+Apache Maven 3.3.9 (bb52d8502b132ec0a5a3f4c09453c07478323dc5; 2015-11-10T17:41:47+01:00)
+Maven home: /usr/share/maven
+Java version: 1.7.0_79, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "10.8.5", arch: "x86_64", family: "mac"
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MSHADE-195-example 1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ MSHADE-195-example ---
+[INFO] Deleting /Users/kama/ws-git/apache/mshade/mshade-195/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ MSHADE-195-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/apache/mshade/mshade-195/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ MSHADE-195-example ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /Users/kama/ws-git/apache/mshade/mshade-195/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ MSHADE-195-example ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/kama/ws-git/apache/mshade/mshade-195/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ MSHADE-195-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ MSHADE-195-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ MSHADE-195-example ---
+[INFO] Building jar: /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-source-plugin:2.4:jar-no-fork (attach-sources) @ MSHADE-195-example ---
+[INFO] Building jar: /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-sources.jar
+[INFO] 
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ MSHADE-195-example ---
+[INFO] Including com.google.guava:guava:jar:18.0 in the shaded jar.
+[INFO] Minimizing jar com.example:MSHADE-195-example:jar:1-SNAPSHOT
+[INFO] Minimized 1697 -> 649 (38%)
+[INFO] Minimized 2169 -> 1121 (51%)
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT.jar with /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-shaded.jar
+[INFO] Replacing original source artifact with shaded source artifact.
+[INFO] Replacing /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-sources.jar with /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-shaded-sources.jar
+[INFO] Dependency-reduced POM written at: /Users/kama/ws-git/apache/mshade/mshade-195/dependency-reduced-pom.xml
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ MSHADE-195-example ---
+[INFO] Installing /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT.jar to /Users/kama/.m2/repository/com/example/MSHADE-195-example/1-SNAPSHOT/MSHADE-195-example-1-SNAPSHOT.jar
+[INFO] Installing /Users/kama/ws-git/apache/mshade/mshade-195/dependency-reduced-pom.xml to /Users/kama/.m2/repository/com/example/MSHADE-195-example/1-SNAPSHOT/MSHADE-195-example-1-SNAPSHOT.pom
+[INFO] Installing /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-sources.jar to /Users/kama/.m2/repository/com/example/MSHADE-195-example/1-SNAPSHOT/MSHADE-195-example-1-SNAPSHOT-sources.jar
+[INFO] Installing /Users/kama/ws-git/apache/mshade/mshade-195/target/MSHADE-195-example-1-SNAPSHOT-sources.jar to /Users/kama/.m2/repository/com/example/MSHADE-195-example/1-SNAPSHOT/MSHADE-195-example-1-SNAPSHOT-sources.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.257 s
+[INFO] Finished at: 2015-12-22T09:12:20+01:00
+[INFO] Final Memory: 24M/315M
+[INFO] ------------------------------------------------------------------------
